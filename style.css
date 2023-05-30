@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    font-size: 1rem;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upper h4{
+    font-size: 1.35rem;
+    margin-bottom: 3px;
+}
+.text{
+    font-size: 1.3rem;
+}
+.description{
+    color: #918f8f;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+svg{
+    width: 40px;
+    margin-bottom: 23px;
+    box-shadow: 0 17px 28px 5px #c3d1e9;
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+}
+.btn{
+    color: #4385f5;
+    background-color: #d7e6fc;
+    font-weight: bold;
+    padding: 8px 25px;
+    border: 2px solid #d7e6fc;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    transform: scale(110%);
+}
+.btn a{
+    text-decoration: none;
+    color: #4385f5;
+}
